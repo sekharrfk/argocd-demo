@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: argo-test
+  name: argo-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: argo-test
+  template:
+    metadata:
+      labels:
+        app: argo-test
+    spec:
+      containers:
+      - image: testimage:v1
+        name: testimage
+        imagePullPolicy: IfNotPresent
