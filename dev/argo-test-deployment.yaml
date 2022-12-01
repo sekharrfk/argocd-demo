@@ -15,6 +15,6 @@ spec:
         app: argo-test
     spec:
       containers:
-      - image: testimage:v1
+      - image: testimage:v2
         name: testimage
         imagePullPolicy: IfNotPresent
