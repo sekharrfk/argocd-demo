@@ -1,0 +1,5 @@
+bases:
+  - ../root
+
+commonLabels:
+  env: staging
