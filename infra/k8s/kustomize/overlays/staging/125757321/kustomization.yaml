@@ -1,0 +1,7 @@
+bases:
+  - ../../../base/staging-root
+
+commonLabels:
+  domainHash: "125757321"
+
+nameSuffix: "-125757321"
