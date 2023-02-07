@@ -3,8 +3,6 @@ kind: Application
 metadata:
   name: nginx-162537903
   namespace: argocd
-  finalizers:
-    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
